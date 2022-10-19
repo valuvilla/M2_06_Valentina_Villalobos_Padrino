@@ -1,3 +1,4 @@
+import sys
 #Definimos la funcion que determinara el estado nutricional de la persona
 def imc():
     #Pedimos por teclado la talla y peso
