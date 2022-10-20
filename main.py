@@ -8,7 +8,7 @@ def lee_numero():
 
 
 
-def mayor(numero1, numero2, numero3):
+def mayor():
     numero1, numero2, numero3 = lee_numero()
     if numero1 < numero2 < numero3:
         return "Mayor: {}".format(numero3)
@@ -17,7 +17,7 @@ def mayor(numero1, numero2, numero3):
     if numero2 < numero3 < numero1:
         return "Mayor: {}".format(numero1)
 
-print(mayor(None, None, None))
+mayor()
 
 
 
