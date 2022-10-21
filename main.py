@@ -12,10 +12,10 @@ def lee_numero():
 def mayor():
     numero1, numero2, numero3 = lee_numero()
     mayor=max(numero1, numero2, numero3)
-    print("Mayor número: {}".format(mayor))
+    return "Mayor número: {}".format(mayor)
 
     
-mayor()
+print(mayor())
 
 
 
