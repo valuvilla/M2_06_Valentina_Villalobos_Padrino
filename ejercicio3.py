@@ -13,12 +13,12 @@ def imc():
 
     #Comparamos resultados
     if IMC< 18.5:
-        return "Bajo de peso con un peso de {}kg y una talla de {}m".format(peso, altura)
+        return "Su IMC es {}: Bajo de peso con un peso de {}kg y una talla de {}m".format(IMC,peso, altura)
     elif 18.5<IMC<25:
-        return "Normal con un peso de {}kg y una talla de {}m".format(peso, altura)
+        return "Su IMC es {}: Normal con un peso de {}kg y una talla de {}m".format(IMC, peso, altura)
     elif 25<=IMC<30:
-        return "Sobrepeso con un peso de {}kg y una talla de {}m".format(peso, altura)
+        return "Su IMC es {}: Sobrepeso con un peso de {}kg y una talla de {}m".format(IMC, peso, altura)
     else:
-        return "Obesidad con un peso de {}kg y una talla de {}m".format(peso, altura)
+        return "Su IMC es {}: Obesidad con un peso de {}kg y una talla de {}m".format(IMC,peso, altura)
 
 print(imc())
